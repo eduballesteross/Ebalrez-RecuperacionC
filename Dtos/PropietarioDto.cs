@@ -22,6 +22,11 @@ namespace Ebalrez.Dtos
         public DateTime FechaCompra { get => fechaCompra; set => fechaCompra = value; }
         public int EsHistorico { get => esHistorico; set => esHistorico = value; }
 
+        /// <summary>
+        /// Método To String para mostra la entidad
+        /// 14062024-ebp
+        /// </summary>
+        /// <returns></returns>
         public string ToString()
         {
             string formato = String.Concat("Nuevo Propietario: ",this.idPropietario,"-",this.dniPropietario);
